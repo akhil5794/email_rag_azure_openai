@@ -56,3 +56,11 @@ Let's build an application that will analyse **Email documents using a RAG appli
 
 ### Process
 <img src="https://github.com/retkowsky/images/blob/master/rag.png?raw=true" width=800>
+
+Approach	Model	Search Mechanism	Query_rerouting	no_of_nearest_chunks	Groundedness	Relevance	Coherence	Similarity	Fluency	F1-Score	Aggregated_score
+RAG 1	GPT4	Semantic+Hybrid	No	5	3.67	3.73	4.03	2.5	4.87	0.21	19.01
+RAG 2	GPT4	Semantic+Hybrid	Yes	5	3.07	3.63	4.5	2.53	4.8	0.17	18.7
+RAG 3	GPT3.5	Semantic+Hybrid	No	10	2.87	2.8	3.8	1.9	2.43	0.17	13.97
+RAG 4	GPT4	Semantic+Hybrid	No	10	3.07	3.55	3.9	2.59	4.79	0.19	18.09
+RAG 5	GPT4	Simple	No	5	3	3	3.69	2.07	2.93	0.16	14.85
+![image](https://github.com/user-attachments/assets/92d4bae6-19b6-47c7-beaa-2c2c09a2d56e)
